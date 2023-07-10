@@ -1,40 +1,53 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+;; height: fill-container
+background.solid: aqua
+align-content: center
+spacing.fixed.px: 50
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- card: GT650🚀
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- card: GT650🚀
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- card: GT650🚀
 
--- ds.h3: 🚀 Fast Track 
+-- end: ftd.column
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- component card:
+caption title: GT650
+body description : The GT 650 showcases Royal Enfield's legendary parallel twin-cylinder engine, backed with an air/oil-cooled parallel twin configuration.The 648cc engine offers 47 horsepower at 7150 RPM and a maximum of 52 Nm of torque at 5250 RPM
 
 
--- ds.h3: 🎯 Used by?
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px: 390
+background.solid: #c5dff5
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
 
-Our all documentation sites uses this `doc-site` theme.
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.image:
+src: https://gaadiwaadi.com/wp-content/uploads/2021/04/modified-Royal-Enfield-GT650-Thailand-1-740x493.jpg
+height: fill-container
+border-radius.px: 20
+width.fixed.px: 325
 
--- ds.h2: Learn fastn and become a pro?
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.column:
+-- ftd.text: $card.title
+role: $inherited.types.heading-medium
 
--- end: ds.page
+-- ftd.text: $card.description
+role: $inherited.types.copy-regular
+
+
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- end: card
